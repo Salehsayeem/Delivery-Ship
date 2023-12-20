@@ -26,8 +26,9 @@ namespace DeliveryShip.Repository
             DataTable dataTable = new DataTable("ExtractedData");
 
             // Split text into rows based on newlines
-            string[] rows = extractedText.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
-
+            string[] rows = extractedText.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries)
+                .Where(row => !string.IsNullOrWhiteSpace(row))
+                .ToArray();
             // Split the first row (headers) into columns based on spaces
             string[] headers = rows[0].Split(new[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
             foreach (string header in headers)

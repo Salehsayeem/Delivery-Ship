@@ -35,3 +35,4 @@ F:\practices\.net\DeliveryShip\obj\Debug\net8.0\refint\DeliveryShip.dll
 F:\practices\.net\DeliveryShip\obj\Debug\net8.0\DeliveryShip.pdb
 F:\practices\.net\DeliveryShip\obj\Debug\net8.0\DeliveryShip.genruntimeconfig.cache
 F:\practices\.net\DeliveryShip\obj\Debug\net8.0\ref\DeliveryShip.dll
+F:\practices\.net\DeliveryShip\obj\Debug\net8.0\DeliveryShip.sourcelink.json
